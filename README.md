@@ -1,35 +1,24 @@
-# vue-project
+# Vue Project
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
+This is a Vue.js project configured with Tailwind CSS and Vite. The project includes a charting component for visualizing data for student score tracking.
 
-## Recommended IDE Setup
+## Project Structure
+### Root Directory
+- index.html: The main HTML template for the Vue application.
+- main.js: The entry point of the application. It initializes the Vue app and mounts it to the DOM.
+- App.vue: The root Vue component that serves as the main container for the app.
+- tailwind.config.js: Configuration file for Tailwind CSS, used to customize styles and themes.
+- vite.config.js: Configuration file for Vite, a fast build tool for Vue projects.
+- package.json: Lists dependencies and scripts for the project.
+- jsconfig.json: Configuration for JavaScript language support and module paths.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### src/ Directory
+The src folder contains the main application logic.
 
-## Customize configuration
+- **components/**: Contains reusable Vue components.
+  - **BarChart.vue**: A charting component built with Chart.js to render bar charts based on data props.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Additional Details
+- The project uses *Tailwind CSS* for styling and *Chart.js* for data visualization.
+- *Vite* is used for development and build processes.
